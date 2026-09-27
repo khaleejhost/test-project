@@ -10,6 +10,7 @@ A simple multi-page website built with pure HTML and CSS — no JavaScript, no f
 | About | `about.html` | About the project |
 | Services | `services.html` | Grid of service cards |
 | Web Design | `web-design.html` | Full landing page: features, process, pricing, CTA |
+| Web Development | `web-development.html` | Full landing page: features, process, pricing, CTA |
 | Contact | `contact.html` | Contact form |
 
 ## Features
