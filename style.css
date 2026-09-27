@@ -129,6 +129,69 @@ main {
     color: #555;
 }
 
+.page-banner {
+    text-align: center;
+    padding: 40px 20px;
+    background: linear-gradient(135deg, #3498db, #2c3e50);
+    color: #fff;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+.page-banner h2 {
+    margin-bottom: 10px;
+}
+
+.page-banner p {
+    color: #e0e0e0;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+}
+
+.service-card {
+    background-color: #fff;
+    padding: 30px 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.service-icon {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.service-card h3 {
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+.service-card p {
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.service-link {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.service-link:hover {
+    color: #2980b9;
+    text-decoration: underline;
+}
+
 footer {
     background-color: #2c3e50;
     color: #ccc;
