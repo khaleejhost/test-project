@@ -51,6 +51,40 @@ nav {
     color: #fff;
 }
 
+.dropdown {
+    position: relative;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    min-width: 160px;
+    background-color: #142850;
+    list-style: none;
+    padding: 5px 0;
+    border-radius: 4px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
+    z-index: 10;
+}
+
+.dropdown:hover .dropdown-menu,
+.dropdown:focus-within .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu a {
+    display: block;
+    padding: 8px 15px;
+    color: #ddd;
+}
+
+.dropdown-menu a:hover {
+    background-color: #e63946;
+    color: #fff;
+}
+
 main {
     flex: 1;
     max-width: 1000px;
